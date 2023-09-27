@@ -1,0 +1,26 @@
+Package: diseasystoreNGC
+Title: diseasystore extensions for the model group
+Version: 0.1.0
+Authors@R: 
+    person("Rasmus Skytte", "Randløv", , "rske@ssi.dk", c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5860-3838"))
+Description: This package handles the feature store data model for the model group.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Imports:
+    checkmate,
+    DBI,
+    diseasystore,
+    dplyr,
+    glue,
+    lubridate,
+    purrr,
+    rlang,
+    stringr,
+    tidyr,
+    tidyselect
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

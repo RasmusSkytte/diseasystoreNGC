@@ -1,0 +1,6 @@
+^featurestore\.Rproj$
+^\.Rproj\.user$
+.lintr
+reexport_mg_functions.R
+^LICENSE\.md$
+^README\.Rmd$
